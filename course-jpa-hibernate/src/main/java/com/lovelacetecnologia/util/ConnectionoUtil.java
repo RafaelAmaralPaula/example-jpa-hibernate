@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 public class ConnectionoUtil {
 
 	
-	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("TestePU");
+	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("TestPU");
 	
 	
 	public EntityManager getConnection() {
